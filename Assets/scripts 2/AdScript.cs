@@ -10,7 +10,7 @@ public class AdScript : MonoBehaviour
 
     void Start()
     {
-        string gameid = "ca-app-pub-9091905143657596~6643385500";
+        string gameid = "your-id";
         MobileAds.Initialize(gameid);
 
        
@@ -20,7 +20,7 @@ public class AdScript : MonoBehaviour
 
     private void showBannerAd()
     {
-        string adID = "ca-app-pub-9091905143657596/9552140940";
+        string adID = "your-id";
 
      
         AdRequest request = new AdRequest.Builder().Build();
