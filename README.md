@@ -1,2 +1,3 @@
 # Stick-Around
-Unity Project
+A mobile game
+Available at play store
