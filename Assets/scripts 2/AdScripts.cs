@@ -9,7 +9,7 @@ public class AdScripts : MonoBehaviour
    
     public  InterstitialAd interstitial;
     public void Start()
-    {  string appId = "ca-app-pub-9091905143657596~6643385500";
+    {  string appId = "your-id";
         Requestinterstitial();
 
         MobileAds.Initialize(appId);
@@ -22,7 +22,7 @@ public class AdScripts : MonoBehaviour
    
     public void Requestinterstitial()
     {
-        string adUnitId = "ca-app-pub-9091905143657596/4580043531";
+        string adUnitId = "your-id";
         this.interstitial = new InterstitialAd(adUnitId);
         AdRequest request = new AdRequest.Builder().Build();
         
@@ -38,7 +38,7 @@ public class AdScripts : MonoBehaviour
     private void RequestRewardBasedVideo()
     {
 
-            string adUnitId = "ca-app-pub-9091905143657596/6610546164";
+            string adUnitId = "your-id";
 
 
         // Create an empty ad request.
